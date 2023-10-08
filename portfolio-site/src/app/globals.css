@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-.site-bg {
+body {
   background-color: #FBCFE8;
+  width: 100vw;
+  height: 100vh;
 }
