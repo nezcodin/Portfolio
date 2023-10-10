@@ -7,3 +7,8 @@ export default function NavBar() {
     </div>
   )
 }
+
+// for medium screens and below,
+// have the hidden nav that must be clicked to open
+// for screens above medium size,
+// have the nav open 

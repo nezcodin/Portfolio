@@ -2,7 +2,7 @@ import Contact from "./components/contact"
 
 export default function Home() {
   return (
-    <div className="flex flex-col justify-center p-6">
+    <div className="flex flex-col justify-center p-8 w-full h-full">
       <div className="mb-4 p-4 bg-pink-50">
         <h1>About Me</h1>
         <p>have my profile photo here</p>
