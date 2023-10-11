@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <div className="flex p-6 m-4 bg-pink-500 flex-col justify-center items-center max-w-screen">
+    <div className="flex p-6 m-4 bg-pink-500 flex-col justify-center items-center max-w-screen font-nanummyeongjo">
       <div className="flex m-2 justify-around w-full">
         <p>LinkedIn</p>
         <p>GitHub</p>
