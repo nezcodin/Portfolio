@@ -8,14 +8,18 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
       fontFamily: {
         dinosaursarealive: ['DinosaursAreAlive', 'sans-serif'],
         nanummyeongjo: ['NanumMyeongjo', 'sans-serif']
+      },
+      colors: {
+        background: '#F8EDEB',
+        // header: '#FEC5BB',
+        text: '#CDEE836',
+        button: '#D8E2DC',
+        container: '#FAE1DD',
+        // childcontainer: '#F5EBE0' (maybe have this be hover color)
+        childcontainer: '#FEC5BB'
       }
     },
   },

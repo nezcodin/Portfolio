@@ -1,6 +1,6 @@
 export default function NavBar() {
   return (
-    <div className="flex bg-pink-600 m-4 p-6 justify-between font-dinosaursarealive font-bold text-4xl">
+    <div className="flex bg-button m-4 p-6 justify-evenly font-dinosaursarealive font-bold text-4xl rounded-3xl">
       <p>Home</p>
       <p>Projects</p>
       <p>Resume</p>
