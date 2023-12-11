@@ -36,13 +36,13 @@ export default function Home() {
         <h1
           className="font-dinosaursarealive text-5xl font-bold max-w-full flex justify-center items-center text-text"
         >Skills</h1>
-        <div className="m-4 p-2 flex flex-col justify-center items-center rounded-3xl bg-childcontainer">
+        <div className="m-4 p-2 flex-col justify-center items-center rounded-3xl bg-childcontainer flex">
           <h2
-            className="font-dinosaursarealive text-3xl font-bold max-w-fit flex justify-center items-center p-2 text-text"
+            className="font-dinosaursarealive text-3xl font-bold max-w-fit flex justify-center items-center p-2 text-text text-center"
           >Languages and Frameworks</h2>
           {/* <p>maybe have animations when hover on icon? or can also show a project that uses that skill</p> */}
           <div
-            className='p-4 rounded-xl flex flex-wrap items-center m-2 w-3/4 justify-evenly'
+            className='p-4 rounded-xl flex flex-wrap items-center m-2 w-3/4 justify-evenly bg-container'
           >
             <RiJavascriptFill size="3em" color="#F5EBE0" alt="JavaScript" />
             <TbBrandTypescript size="3em" color="#F5EBE0" />

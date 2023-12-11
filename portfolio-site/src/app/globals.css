@@ -21,3 +21,10 @@ body {
   font-weight: normal;
   font-style: normal;
 }
+
+@layer utilities {
+  .placeholder-style::placeholder {
+    color: var(--text-text);
+    overflow-x: wrap;
+  }
+}
